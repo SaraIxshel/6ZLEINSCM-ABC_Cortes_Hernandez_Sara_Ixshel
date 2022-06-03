@@ -130,7 +130,7 @@ void insertarLista(Nodo *&lista, int c){
 		recurso = lista;
 		
 		//imprimir los valores
-		while(recurso!=NULL){
+		while(recurso!=NULL){ff
 			cout<<recurso->valor<<endl;
 			recurso=recurso-> siguiente;
 		}
